@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
+import React from 'react';
 import "./App.css";
-import Expense from "./components/Expenses";
+import Expense from "./components/Expenses/Expenses";
 
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
